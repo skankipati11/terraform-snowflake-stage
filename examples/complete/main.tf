@@ -8,7 +8,7 @@ resource "snowflake_schema" "this" {
 }
 
 resource "snowflake_account_role" "role_1" {
-  name = "ROLE_1"
+  name = "ROLE_1_1"
 }
 
 resource "snowflake_database_role" "db_role_1" {
