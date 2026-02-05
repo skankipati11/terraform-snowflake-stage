@@ -1,5 +1,5 @@
 resource "snowflake_database" "this" {
-  name = "USERS_DB"
+  name = "USERS_DB_S"
 }
 
 resource "snowflake_schema" "this" {
